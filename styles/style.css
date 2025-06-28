@@ -6,7 +6,7 @@
 }
 
 body{
-    overflow: hidden;
+    
     color: var(--color-white);
     background-color: var(--bg-dark);
 
@@ -41,6 +41,7 @@ header nav .second_ul{
 /* container 1 started */
 
 main .container_1{
+    scrollbar-width:auto;
     width: 320px;
     height: 566px;
     padding: 0px 16px;
@@ -101,6 +102,33 @@ main .container_1 img{
 
 /* container 1 ended */
 
+
+/* container 2 started */
+main .container_2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+main .container_2 .companyImg{
+    padding: 0px 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container_2 .companyImg img{
+
+    width: 140px;
+    border: 1px solid var(--bg-dark-gray);
+}
+/* container 2 ended */
+
 /* main ended */
 
 
@@ -138,7 +166,7 @@ main .container_1 .parent_1{
 }
 
 main .container_1 .parent_1 .digital h1{
-    font-size: 34px;
+    font-size: 28px;
 }
 
 main .container_1 .parent_1 .media{
@@ -297,6 +325,7 @@ main .container_1 img{
     header{
         padding: 0;
     }
+    
 
     header nav .first_ul{
         display: none;
@@ -311,26 +340,44 @@ main .container_1 img{
         align-items: center;
         justify-content: space-between;
     }
+
+    header ul li img{
+        width: 177.77px;
+    }
     
     header nav ul li ul li{
         width: 80px;
         height: 45px;
-        font-size: 14px;
+        font-size: 18px;
+        font-weight: 600;
         cursor: pointer;
 
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     
     header nav ul li ul li:hover{
         background-color: var(--bg-dark-gray);
         border-radius: 6px;
     }
+
+    .button_contact{
+        width: 135px;
+        height: 59px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 500;
+        border-style: none;
+        border-radius: 8px;
+        color: var(--bg-dark);
+        background-color: var(--bg-green);
+    }
     /* header ended */
 
     /* main started */
-
+    
 /* container 1 started */
 
 main .container_1{
@@ -384,6 +431,18 @@ main .container_1 .parent_1 .media_box{
     border: 1px solid var(--bg-dark-gray);
 }
 
+.botton_contact_2{
+   width: 143px;
+   height: 58px;
+   font-size: 18px;
+   cursor: pointer;
+   font-weight: 500;
+   border-style: none;
+   border-radius: 10px;
+   color: var(--bg-dark);
+   background-color: var(--bg-green);
+}
+
 .boxes{
     padding: 12px 14px; 
     cursor: pointer;
@@ -396,7 +455,7 @@ main .container_1 .parent_1 .media_box{
 }
 
 .botton_work{
-    width: 137px;
+    width: 143px;
     height: 58px;
     font-size: 18px;
     cursor: pointer;
@@ -407,6 +466,7 @@ main .container_1 .parent_1 .media_box{
     border: 1px solid var(--bg-dark-gray);
     background-color: var(--bg-dark);
 }
+
 
 main .container_1 .parent_1 .media_box .para_box{
     font-size: 22px;
@@ -423,7 +483,7 @@ main .container_1 img{
     width: 80%;
     height: 258px;
     position: absolute;
-    top: 525px;
+    top: 540px;
 }
 
 /* container 1 ended */
