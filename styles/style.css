@@ -41,12 +41,12 @@ header nav .second_ul{
 main .container_1{
     width: 390px;
     height: 566px;
+    padding: 0px 16px;
     background-image: url(../Assets/images/f4fdd2a23aecc907f995d84427b3721050e3a086.png);
 }
 
 main .container_1 .parent_1{
-    width: 358px;
-    /* margin: 0px 16px; */
+    
     text-align: center;
 
     display: flex;
@@ -54,6 +54,11 @@ main .container_1 .parent_1{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
+}
+
+main .container_1 .parent_1 .digital{
+    font-size: 14px;
 }
 /* main div div img{
     width: 100%;
