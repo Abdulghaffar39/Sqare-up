@@ -35,7 +35,34 @@ header nav .second_ul{
 }
 /* header ended */
 
+/* main started */
 
+/* container 2 ended */
+main .container_1{
+    width: 390px;
+    height: 566px;
+    background-image: url(../Assets/images/f4fdd2a23aecc907f995d84427b3721050e3a086.png);
+}
+
+main .container_1 .parent_1{
+    width: 358px;
+    /* margin: 0px 16px; */
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/* main div div img{
+    width: 100%;
+    height: 248px;
+} */
+
+/* container 1 ended */
+
+/* main ended */
 
 
 
