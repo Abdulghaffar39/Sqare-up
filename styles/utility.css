@@ -15,13 +15,17 @@
   --bg-white: rgb(255, 255, 255);
   --bg-black: #000000;
   --bg-dark: rgb(25, 25, 25);
-  --bg-gray: rgb(38, 38, 38);
-}
-
-.bg-gray {
-  background-color: var(--bg-gray);
-}
-
+  --bg-dark-gray: rgb(38, 38, 38);
+  --bg-light-gray: rgb(152, 152, 154);
+ }
+ 
+ .bg-dark-gray {
+   background-color: var(--bg-dark-gray);
+ }
+ 
+ .bg-light-gray {
+   background-color: var(--bg-light-gray);
+ }
 .bg-green {
   background-color: var(--bg-green);
 }
@@ -46,11 +50,16 @@
  --color-white: rgb(255, 255, 255);
  --color-black: #000000;
  --color-dark: rgb(25, 25, 25);
- --color-gray: rgb(38, 38, 38);
+ --color-dark-gray: rgb(38, 38, 38);
+ --color-light-gray: rgb(152, 152, 154);
 }
 
-.color-gray {
-  color: var(--color-gray);
+.color-dark-gray {
+  color: var(--color-dark-gray);
+}
+
+.color-light-gray {
+  color: var(--color-light-gray);
 }
 
 .color-green {
@@ -83,6 +92,48 @@
   background-color: var(--bg-green);
 }
 /* Button Contact ended */
+
+/* Button work started */
+.botton_work{
+  width: 103px;
+  height: 45px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 8px;
+  border-style: none;
+  color: var(--color-white);
+  border: 1px solid var(--bg-dark-gray);
+  background-color: var(--bg-dark);
+}
+/* Button work ended */
+
+/* Button Contact 2 started */
+.botton_contact_2{
+ width: 108px;
+ height: 45px;
+ cursor: pointer;
+ font-size: 14px;
+ font-weight: 500;
+ border-style: none;
+ border-radius: 8px;
+ color: var(--bg-dark);
+ background-color: var(--bg-green);
+}
+/* Button Contact 2 ended */
+
+/* box media started */
+.boxes{
+ padding: 8px 10px; 
+ cursor: pointer;
+ font-size: 18px;
+ font-weight: 400;
+ border-style: none;
+ border-radius: 6px;
+ color: var(--bg-white);
+ background-color: var(--bg-dark-gray);
+}
+/* box media ended */
 
 
 
