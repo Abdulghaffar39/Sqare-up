@@ -143,6 +143,32 @@ main .container_1 img{
 }
 /* container 2 ended */
 
+
+/* container 3 started */
+.main_2 .container_3{
+    padding: 0px 16px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.main_2 .container_3{
+    
+    width: 300px;
+    height: 188px;
+}
+
+.main_2 .container_3 img{
+    background-image: url(../Assets/images/f4fdd2a23aecc907f995d84427b3721050e3a086.png);
+    width: 300px;
+    height: 188px;
+}
+/* container 3 ended */
+
+
 /* main ended */
 
 
