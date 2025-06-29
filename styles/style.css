@@ -181,7 +181,7 @@ main .container_1 img{
 }
 
 .main_2 .container_3 p{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: var(--color-light-gray);
 }
@@ -337,12 +337,12 @@ main .container_1 img{
 }
 
 .main_2 .container_3 h1{
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 600;
 }
 
 .main_2 .container_3 p{
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
     color: var(--color-light-gray);
 }
